@@ -12,7 +12,7 @@ import { UserInputContext } from "../_context/UserInputContext";
 import { GenerateCourseLayoutAI } from "@/configs/AiModel";
 import Loading from "./_components/Loading";
 import { db } from "@/configs/db";
-import { CourseList } from "@/configs/Schema";
+import { CourseList } from "@/configs/schema";
 import uuid4 from "uuid4";
 import { useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";

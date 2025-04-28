@@ -1,6 +1,6 @@
 "use client"
 import { db } from '@/configs/db'
-import { CourseList } from '@/configs/Schema'
+import { CourseList } from '@/configs/schema'
 import { useUser } from '@clerk/nextjs'
 import { eq } from 'drizzle-orm'
 import React, { useContext, useEffect, useState } from 'react'

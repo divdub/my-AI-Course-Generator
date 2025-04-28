@@ -3,7 +3,7 @@ import React from "react";
 import { HiMiniEllipsisVertical, HiOutlineBookOpen } from "react-icons/hi2";
 import DropdownOption from "./DropdownOption";
 import { db } from "@/configs/db";
-import { CourseList } from "@/configs/Schema";
+import { CourseList } from "@/configs/schema";
 import { eq } from "drizzle-orm";
 import Link from "next/link";
 import { HiOutlineShare } from "react-icons/hi";

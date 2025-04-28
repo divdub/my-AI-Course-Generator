@@ -114,7 +114,7 @@ import CourseBasicInfo from "@/app/create-course/[courseId]/_components/CourseBa
 import CourseDetail from "@/app/create-course/[courseId]/_components/CourseDetail";
 
 import { db } from "@/configs/db";
-import { CourseList } from "@/configs/Schema";
+import { CourseList } from "@/configs/schema";
 import { eq } from "drizzle-orm";
 import { Corben } from "next/font/google";
 import React, { useEffect, useState } from "react";

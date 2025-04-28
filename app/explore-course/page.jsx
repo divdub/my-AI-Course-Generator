@@ -1,6 +1,6 @@
 "use client"
 import { db } from '@/configs/db'
-import { CourseList } from '@/configs/Schema'
+import { CourseList } from '@/configs/schema'
 import React, { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { index } from 'drizzle-orm/mysql-core'

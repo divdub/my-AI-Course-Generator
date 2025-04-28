@@ -1,7 +1,7 @@
 import { UserButton } from '@clerk/nextjs'
 import React from 'react'
 
-import { CourseList } from '@/configs/Schema'
+import { CourseList } from '@/configs/schema'
 import UserCourseList from './_components/UserCourseList'
 import Addcourse from './_components/AddCourse'
 
