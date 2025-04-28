@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
+    "target": "ESNext", // Specifies the ECMAScript target version
+    "module": "ESNext", // Specifies the module code generation
+    "moduleResolution": "Bundler", // Resolves modules using bundler-style resolution
+    "skipLibCheck": true, // Skips type checking of declaration files
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"] // Maps the alias '@/' to the './src/' directory
     }
   }
 }
